@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michele &amp; Justine&apos;s Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="C:/Users/Administrator/Pictures/mj.jpg" type="image/x-icon">
+    <style>
+            table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+            td {
+            text-align: center;
+            font-weight: bold;
+            padding: 10px;
+            border: 2px solid black;
+            background-color: white;
+        } 
+           .business {
+            width: 32%; 
+            margin-bottom: 20px;
+        } 
+            h1 {
+            text-align: center;
+        }
+            caption {
+            background-color: black;
+            color: yellow;
+            border: 2px solid black;
+            margin-bottom: 10px;
+            font-size: 1cm;
+       }
+            tr:nth-child(1), td:hover {
+            color: yellow;
+            padding: 5px;
+            border: 2px solid black;
+            text-align: center;
+            background-color: black;
+        }
+            body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+            header {
+            background-color: #333;
+            color: yellow;
+            text-align: center;
+            padding: 20px;
+        }
+
+            nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+
+            nav ul li {
+            margin: 0 15px;
+        }
+
+            nav ul li a {
+            text-decoration: none;
+            color: yellow;
+        }
+
+            main {
+            padding: 20px;
+        }
+
+            section {
+            margin-bottom: 40px;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+            footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Michele &amp; Justine&apos;s Portfolio</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutmichele">About Michele</a></li>
+            <li><a href="#aboutjustine">About Justine</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <p>Hi, everyone! Here is our portfolio. This is about Michele &amp; Justine.</p>
+            <br>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="C:/Users/Administrator/Pictures/fb.jpg" alt="fb" width="100" height="100">
+            </a>
+            <a href="https://workspace.google.com/intl/en-US/gmail/" target="_blank">
+                <img src="C:/Users/Administrator/Pictures/em.jpg" alt="em" width="100" height="100">
+            </a>
+        </section>
+
+        <section id="aboutmichele">
+            <h2>ABOUT MICHELE</h2>
+            <h3> <u>Personal Information</u> </h3>
+            <p>&#x1F49B; Michele A. Babol</p> 
+            <p>&#x1F49B; 19 | Female</p>
+            <p>&#x1F49B; Filipino | Roman Catholic</p>
+            <p>&#x1F49B; January 23, 2006</p>
+            <p>&#x1F49B; 52 E Spolarium Street, Duljo Fatima, Cebu City</p>
+            <p>&#x1F49B; BSIT - 1 Student</p>
+            <hr>
+            <h3> <u>My Favorite Movies</u></h3>
+            <ol>
+               <li>Lolo and the Kid</li>
+               <li>Squid Game</li>
+               <li>Orphan</li>
+            </ol>
+            <hr>
+            <h3> <u>My Dream Destinations</u> </h3>
+            <label for="country">Choose your country:</label>
+            <select id="country" name="country" required>
+               <option value="">--Select--</option>
+               <option value="us">United States</option>
+               <option value="hk">Hong Kong</option>
+               <option value="sk">South Korea</option>
+            </select>
+            <hr>
+            <h3> <u>My Hobbies</u> </h3>
+            <dl>
+             <ul>
+               <dt> <li>Singing and Listening to Music</li> </dt>
+               <dd> <details> <i>I love listening to my favorite songs and singing along with it whenever I am stressed.</i> </details> </dd>
+               <ul>
+                    <li>Pop</li>
+                    <li>OPM</li>
+                    <li>Ballad</li>
+               </ul>
+               <dt> <li>Reading Novels</li> </dt>
+               <dd> <details> <i>I love to read novels to make my mind escape from problems.</i> </details> </dd>
+               <ul>
+                    <li>Romance/RomCom</li>
+                    <li>Mystery/Thriller</li>
+                    <li>Drama/Family Drama</li>
+               </ul>
+               <dt> <li>Cooking/Baking</li></dt>
+               <dd> <details> <i>I love to bake cupcakes and make yummy desserts.</i> </details> </dd>
+               <ul>
+                    <li>Patries</li>
+                    <li>Desserts</li>
+                    <li>Meals</li>
+               </ul>
+              </ul>
+            </dl>
+          <hr>
+          <h3> <u>My Favorite Emojis</u> </h3>
+          <input type="checkbox" id="swh" name="emoji" value="swh">
+          <label for="swh">&#x1F970;</label>
+
+          <input type="checkbox" id="swt" name="emoji" value="swt" checked>
+          <label for="swt">&#x1F972;</label>
+
+          <input type="checkbox" id="fwt" name="emoji" value="fwt">
+          <label for="fwt">&#x1F979;</label>
+        </section>
+
+        <section id="aboutjustine">
+            <h2>ABOUT JUSTINE</h2>
+            <h3> <u>Personal Information</u> </h3>
+            <p>&#x2764; Justine Dave M. Angub</p> 
+            <p>&#x2764; 19 | Male</p>
+            <p>&#x2764; Filipino | Roman Catholic</p>
+            <p>&#x2764; July 2, 2005</p>
+            <p>&#x2764; Gen Gines Street, Sawang Calero, Cebu City</p>
+            <p>&#x2764; BSIT - 1 Student</p>
+            <hr>
+            <h3> <u>My Favorite Movies</u> </h3>
+            <ol>
+               <li>Lolo and the Kid</li>
+               <li>Squid Game</li>
+               <li>All of Us Are Dead</li>
+            </ol>
+            <hr>
+            <h3> <u>My Dream Destinations</u> </h3>
+            <label for="country">Choose your country:</label>
+            <select id="country" name="country" required>
+               <option value="">--Select--</option>
+               <option value="us">United States</option>
+               <option value="hk">Hong Kong</option>
+               <option value="brazil">Brazil</option>
+            </select>
+            <hr>
+            <h3> <u>My Hobbies</u> </h3>
+            <dl>
+             <ul>
+               <dt> <li>Singing and Listening to Music</li> </dt>
+               <dd> <details> <i>I love listening to my favorite songs and singing along with it.</i> </details> </dd>
+               <ul>
+                    <li>Perfect</li>
+                    <li>OPM Songs</li>
+                    <li>Yellow</li>
+               </ul>
+               <dt> <li>Watching Movies</li> </dt>
+               <dd> <details> <i>I love watching movies, whenever I am bored.</i> </details> </dd>
+               <ul>
+                    <li>Lolo and the Kid</li>
+                    <li>Squid Game</li>
+                    <li>All of Us Are Dead</li>
+               </ul>
+               <dt> <li>Playing Games</li> </dt>
+               <dd> <details> <i>I love playing games.</i> </details> </dd>
+               <ul>
+                    <li>Mobile Legends</li>
+                    <li>NBA</li>
+                    <li>Crossfire</li>
+               </ul>
+             </ul>
+            </dl>
+          <hr>
+          <h3> <u>My Favorite Emojis</u> </h3>
+          <input type="checkbox" id="swrh" name="emoji" value="swrh">
+          <label for="swrh">&#x1F60D;</label>
+
+          <input type="checkbox" id="yh" name="emoji" value="yh" checked>
+          <label for="yh">&#x1F49B;</label>
+
+          <input type="checkbox" id="hh" name="emoji" value="hh">
+          <label for="hh">&#x1FAF6;</label>
+        </section>
+
+        <section id="aboutus">
+            <h2>ABOUT US</h2>
+            <h3>Our Small Business</h3>
+            <div class="business">
+            <table>
+            <caption> Products </caption>
+            <colgroup>
+            <col span="3" style="background-color: white;">
+            </colgroup>
+            <tr> 
+               <th>Product Name</th>
+               <th>Price</th>
+               <th>Quantity</th>
+            <tr>
+               <td> Graham Pastillas </td> 
+               <td> &#8369; 10.00 each </td> 
+               <td> 8 pcs. for &#8369; 60.00 </td>
+            </tr>
+            <tr>
+               <td> Puto Flan / Cheese </td> 
+               <td> &#8369; 12.00 each </td> 
+               <td> 10 pcs. for &#8369; 100.00 </td>
+            </tr>
+            <tr>
+               <td> Mini Cupcakes </td> 
+               <td> &#8369; 10.00 each </td> 
+               <td> 15 pcs. for &#8369; 100.00 </td>
+            </tr>
+            </table>
+            </div>
+            <br>
+            <h3>Our Favorite Song</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WUoa_DhHIZY?si=EA2Du1R8FeY2qMqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h3>Our University Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.5917811993404!2d123.8934419742167!3d10.294438167900745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99bfcc60d650d%3A0x5ee73506c68dd233!2sCebu%20Eastern%20College%20Cebu%20city!5e0!3m2!1sen!2sph!4v1742112390289!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Michele &amp; Justine&apos;s Portfolio | &#128187; BSIT</p>
+    </footer>
+
+</body>
+</html>
